@@ -14,7 +14,12 @@
     <div class="logo">
         <img src="img/loge.png" alt="" >
     </div>
-    <nav class="menu">
+     <button class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+    <nav class="menu" id="menu">
         <a target="_blank" href="#index.html">Inicio</a>
         <a target="_blank" href="tiposdebebidas.html">Tipos de bebidas</a>
         <a target="_blank" href="nosotros.html">Nosotros</a>
@@ -86,12 +91,13 @@
             <div class="historia-text">
              
                    <h1 style="text-align: center;">HISTORIA Y CULTURA</h1>
-                   <p style="text-align: center;">Desde las civilizaciones antiguas hasta nuestros días, las bebidas alcohólicas han sido mucho más que simples acompañantes en la mesa.
+                   <p style="text-align: justify;">Desde las civilizaciones antiguas hasta nuestros días, las bebidas alcohólicas han sido mucho más que simples acompañantes en la mesa.
                         Han estado presentes en rituales sagrados, banquetes imperiales, celebraciones populares y momentos íntimos.
                         En Destila, exploramos el legado cultural que encierran el vino, la cerveza, los licores y los cócteles: sus orígenes, su evolución, y su papel en la identidad de pueblos y generaciones.
                         Cada sorbo es también una historia.</p>
-                        <a target="_blank" href="nosotros.html"><button class="btn"> Ver más <i class="fa fa-arrow-right"></i></button></a>
-    
+<div style="text-align: center;">
+  <a target="_blank" href="nosotros.html"><button class="btn"> Ver más <i class="fa fa-arrow-right"></i></button></a>
+</div>    
             </div>
         </div>
     </section>
@@ -134,6 +140,8 @@
         </div>
     </section>
 
+    <script src="js/menu.js"></script>
+    <script src="js/testimonios.js"></script>
 
 </body>
 <footer class="footer">
