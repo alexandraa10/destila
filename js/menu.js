@@ -10,3 +10,11 @@ window.addEventListener('resize', ()=> {
         document.getElementById('hamburger').classList.remove('open');
     }
 });
+
+//FORM
+
+// Limpia el form
+window.addEventListener('pageshow', function() {
+  const form = document.getElementById('contactForm');
+  if (form) form.reset();
+});
